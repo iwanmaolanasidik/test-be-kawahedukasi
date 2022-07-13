@@ -1,0 +1,4 @@
+1. SELECT nama, gaji FROM `kawahedukasi` order by gaji desc; (query peserta gaji tertinggi)
+2. SELECT * FROM kawahedukasi ORDER BY nilai DESC, gaji DESC;  (query nilai dan gaji tertinggi)
+3. SELECT COUNT(kelas) FROM `kawahedukasi` where kelas = 'FRONTEND';  (Count peserta FRONTEND)
+4. SELECT * FROM `kawahedukasi` WHERE kelas = 'FRONTEND' ORDER BY nilai DESC, jumlah_kehadiran DESC;
